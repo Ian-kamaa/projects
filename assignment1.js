@@ -5,11 +5,12 @@ for (i=1; i<51; i++ ){
     if(i % 3===0 && i % 5 ===0)
     // print this message to the console 
     console.log('Fizzbuzz');
-    // condition check which  numbers are divisible by 3
+    // condition check which  numbers are divisible only  by 3
     else if(i % 3===0)
     console.log('Fizz');
-     //condition to check which  numbers are divisible by 5
+     //condition to check which  numbers are divisible only by 5
     else (i % 5===0)
+     //print this message to th console
     console.log('Buzz');
     
     
